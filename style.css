@@ -1,0 +1,50 @@
+html, body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  max-width: 60%;
+  margin: 0 auto;
+  background-color: #000;
+  color: #fff;
+}
+.main-navbar {
+  background: url("images/stonetexture.jpg");
+  background-size: cover;
+  width: calc(100vw - 17px);
+  height: 5vh;
+  z-index: 1;
+  position: fixed;
+  width: calc(100vw - 17px);
+  margin-left: -20%;
+  margin-right: 0%;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.centerBody {
+  margin-top: 5vh;
+  height: 95vh;
+  position: absolute;
+  height: 200vh;
+  width: 100%;
+}
+.box {
+    /* border: purple 1px solid; */
+}
+.leftColumn {
+  margin-top: 5vh;
+  height: 95vh;
+  position: fixed;
+
+  left: 0;
+}
+.rightColumn {
+  margin-top: 5vh;
+  height: 95vh;
+  position: fixed;
+
+  right: 0;
+}
