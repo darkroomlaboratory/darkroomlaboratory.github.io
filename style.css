@@ -14,8 +14,11 @@ body {
   background: url("images/stonetexture.jpg");
   background-size: cover;
   width: calc(100vw - 17px);
-  height: 5vh;
+  height: 7vh;
   z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   position: fixed;
   width: calc(100vw - 17px);
   margin-left: -20%;
@@ -23,10 +26,20 @@ body {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
+.main-navbar a {
+  text-decoration: none;
+  color: #000;
+  padding-left: 2em;
+  font-weight: bold;
+}
+.main-navbar img {
+  position: absolute;
+  left: 5%;
+}
 
 .centerBody {
-  margin-top: 5vh;
-  height: 95vh;
+  margin-top: 7vh;
+  height: 93vh;
   position: absolute;
   height: 200vh;
   width: 100%;
@@ -35,15 +48,15 @@ body {
     /* border: purple 1px solid; */
 }
 .leftColumn {
-  margin-top: 5vh;
-  height: 95vh;
+  margin-top: 7vh;
+  height: 93vh;
   position: fixed;
 
   left: 0;
 }
 .rightColumn {
-  margin-top: 5vh;
-  height: 95vh;
+  margin-top: 7vh;
+  height: 93vh;
   position: fixed;
 
   right: 0;
