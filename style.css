@@ -1,14 +1,31 @@
+@font-face {
+    font-family: "GeneralFont";
+    src: url('fonts/gisha.ttf') format('truetype');
+}
+
+
 html, body {
   padding: 0;
   margin: 0;
 }
 
 body {
+  font-family: 'GeneralFont', sans-serif;
   position: relative;
   max-width: 60%;
   margin: 0 auto;
   background-color: #000;
   color: #fff;
+}
+h2 {
+  color: #fff;
+  padding: 0 0 10px 0;
+  margin: 0;
+}
+p {
+  color: #fff;
+  padding: 0;
+  margin: 0;
 }
 .main-navbar {
   background: url("images/stonetexture.jpg");
@@ -32,6 +49,9 @@ body {
   padding-left: 2em;
   font-weight: bold;
 }
+.main-navbar a:hover {
+  color: #383838;
+}
 .main-navbar img {
   position: absolute;
   left: 5%;
@@ -39,25 +59,76 @@ body {
 
 .centerBody {
   margin-top: 7vh;
-  height: 93vh;
   position: absolute;
   height: 200vh;
+  width: 100%;
+}
+.mainDlabLogoContainer {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.mainDlabLogo {
+  width: 100%;
+  max-width: 100%;
+}
+.dividerContainer {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+}
+.divider {
+  max-width: 100%;
   width: 100%;
 }
 .box {
     /* border: purple 1px solid; */
 }
+.gifContainer {
+  position: relative;
+  width: 40%;
+  height: auto;
+  max-width: 40%;
+  min-width: 100px;
+  float: left;
+}
+.hexagonGif {
+  max-width: 100%;
+  width: 100%;
+  position: relative;
+}
+.mainArticleContainer {
+  max-width: 60%;
+  width: 60%;
+  position: relative;
+  float: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .leftColumn {
   margin-top: 7vh;
   height: 93vh;
   position: fixed;
-
   left: 0;
 }
 .rightColumn {
   margin-top: 7vh;
   height: 93vh;
   position: fixed;
-
   right: 0;
 }
